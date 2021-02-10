@@ -6,9 +6,44 @@
 
 body {
     padding: 40px;
+    color: black, blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 
 blockquote {
     margin: 0 0 0 30px;
+    font-style: italic;
+    line-height: 1.5em;
+    text-indent: 50px;
+}
+h1, h3 {
+    font-family:  'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: rgb(251, 255, 0);
+
+}
+h1 {
+    font-size: 3em;
+
+}
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: -1px;
+    word-spacing: 25px;
+}
+span{
+    text-decoration: line-through;
+}
+em {
+    text-transform: capitalize;
+}   
+strong {
+    text-transform: uppercase;
+}
+a {
+    color: cadetblue;
+    text-decoration: none;
 }
 
